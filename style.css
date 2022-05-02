@@ -1,0 +1,88 @@
+body{
+margin: 0 ;
+padding-top: 800px  ;
+text-align: center;
+}
+.profile{
+border-radius: 50% ;
+width: 500px;
+height:300px ;
+}
+#welcome{
+position:absolute ;
+bottom: 0;
+background:linear-gradient(90deg, rgb(206, 111, 111) 0%, rgb(188, 255, 182) 50%, rgb(0, 3, 102) 100%); ;
+width:100% ;
+display: table;
+height: 100%;
+}
+#name{
+font-size: 50px;
+font-weight: bold;
+font-family: 'Oswald', sans-serif;
+}
+h3{
+    font-size: 30px;
+    font-family:monospace;
+    font-weight: bold;
+}
+#bio{
+font-family: serif;
+padding: 50px;
+}
+.line{
+height: 6px;
+background-color: black;
+width: 70px;
+margin:  8px auto;
+}
+.inner{
+display: table-cell;
+vertical-align: middle;
+}
+p{
+font-family:sans-serif;
+letter-spacing: 1;
+line-height: 2;
+
+}
+.menu{
+z-index: 10;
+cursor: pointer;
+background-color: brown;
+width: 100%;
+margin-top: 0px;
+position: fixed;
+top: 0px;
+}
+.link{
+display: inline;  
+padding-left: 33px;
+padding-right: 25px;
+font-size: 20px;
+font-family: 'Water Brush', cursive;
+}
+.link:hover{
+font-size: 25px;
+background-color: rgb(40, 0, 116);
+text-decoration: underline;
+}
+#Witing a{
+color:rgb(38, 0, 255) ;
+font-size: 30px;
+text-decoration: none;
+text-shadow: 5px 5px 10px rgb(98, 100, 182);
+}
+.link a{
+text-decoration: none;
+font-size: 30px;
+color: #f8ff50;
+}
+#Contact1{
+width: 100%;
+}
+#Contact2 h3{
+display: inline;
+
+
+}
